@@ -1,0 +1,42 @@
+.gallery {
+  padding: 0 1em;
+  margin-bottom: 100px;
+
+  &__item {
+    padding: 1em 0;
+
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #091423;
+  }
+  &__item:first-child {
+    border-top: 1px solid #091423;
+  }
+}
+.card {
+  &__left {
+    display: flex;
+    flex-direction: column;
+  }
+  &__title {
+    margin: 0;
+    color: #091423;
+    font-size: 5rem;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  &__description {
+    text-transform: uppercase;
+  }
+  &__wrap {
+    position: relative;
+    width: 57em;
+    height: 28em;
+    overflow: hidden;
+    border-radius: 0.3em;
+  }
+  &__img {
+    display: block;
+    object-fit: cover;
+  }
+}

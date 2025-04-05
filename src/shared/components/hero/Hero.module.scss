@@ -1,0 +1,15 @@
+.hero {
+  padding: 1em 30vw 1em 1em;
+  padding-top: 5em;
+  &__title {
+    font-size: 10rem;
+    line-height: 1;
+    color: transparent;
+    text-transform: uppercase;
+    font-weight: 900;
+    -webkit-text-stroke: 5px #091423;
+    div {
+      cursor: default;
+    }
+  }
+}

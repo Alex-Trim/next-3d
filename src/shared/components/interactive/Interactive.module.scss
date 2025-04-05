@@ -1,0 +1,40 @@
+.interactive {
+  height: 100vh;
+
+  &__container {
+    padding-bottom: 20vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+  }
+  &__text {
+    position: relative;
+    letter-spacing: 0.6em;
+    text-transform: uppercase;
+    color: transparent;
+    user-select: none;
+    background: #0914236b;
+    background-image: linear-gradient(
+      90deg,
+      #ffffff00 0%,
+      #f1f1f1cc 50%,
+      #ffffff00 100%
+    );
+    background-repeat: no-repeat;
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: skeleton-shimmer 3s infinite linear;
+  }
+}
+
+@keyframes skeleton-shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}

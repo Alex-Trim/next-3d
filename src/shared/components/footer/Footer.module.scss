@@ -1,0 +1,25 @@
+.footer {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  background-color: #091423;
+  overflow: hidden;
+  &__wrapText {
+    padding: 0 0.5em;
+    position: absolute;
+    bottom: 60%;
+    background-color: #091423;
+  }
+  &__title {
+    margin: 0;
+    font-size: 15rem;
+    font-weight: 900;
+    line-height: 0.8;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px #091423;
+  }
+}
