@@ -27,14 +27,16 @@ export default function Home() {
     <>
       <main data-scroll-container>
         <Header />
-        <div style={{ position: "relative" }}>
-          <Canvas3d />
-          <Hero />
-          <About />
-          <Interactive />
-        </div>
+        <div className="container">
+          <div style={{ position: "relative" }}>
+            <Canvas3d />
+            <Hero />
+            <About />
+            <Interactive />
+          </div>
 
-        <Gallery />
+          <Gallery />
+        </div>
         <Footer />
       </main>
     </>

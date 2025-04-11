@@ -25,7 +25,8 @@ a {
 }
 
 .container {
-  padding: 0 5vw;
+  max-width: 1650px;
+  margin-inline: auto;
 }
 .overflowHidden {
   overflow: hidden;
